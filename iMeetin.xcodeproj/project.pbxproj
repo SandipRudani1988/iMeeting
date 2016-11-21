@@ -13,6 +13,7 @@
 		EE113A531DE2A3CA004311CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE113A511DE2A3CA004311CE /* Main.storyboard */; };
 		EE113A551DE2A3CA004311CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE113A541DE2A3CA004311CE /* Assets.xcassets */; };
 		EE113A581DE2A3CA004311CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE113A561DE2A3CA004311CE /* LaunchScreen.storyboard */; };
+		EE113A611DE2AC28004311CE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE113A601DE2AC28004311CE /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EE113A541DE2A3CA004311CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE113A571DE2A3CA004311CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE113A591DE2A3CA004311CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE113A5F1DE2AC28004311CE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EE113A601DE2AC28004311CE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				EE113A561DE2A3CA004311CE /* LaunchScreen.storyboard */,
 				EE113A591DE2A3CA004311CE /* Info.plist */,
 				EE113A481DE2A3C9004311CE /* Supporting Files */,
+				EE113A5F1DE2AC28004311CE /* LoginViewController.h */,
+				EE113A601DE2AC28004311CE /* LoginViewController.m */,
 			);
 			path = iMeetin;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE113A611DE2AC28004311CE /* LoginViewController.m in Sources */,
 				EE113A501DE2A3C9004311CE /* ViewController.m in Sources */,
 				EE113A4D1DE2A3C9004311CE /* AppDelegate.m in Sources */,
 				EE113A4A1DE2A3C9004311CE /* main.m in Sources */,
@@ -300,6 +306,7 @@
 				EE113A5E1DE2A3CA004311CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
