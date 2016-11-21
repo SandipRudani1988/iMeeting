@@ -10,4 +10,6 @@
 
 @interface LoginViewController : ViewController
 
+@property NSString *strUserName,*strPassword;
+
 @end
