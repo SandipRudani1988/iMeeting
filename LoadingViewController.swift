@@ -22,7 +22,12 @@ class LoadingViewController: ViewController {
     }
     
 
+    func setName()  {
+        
+        print("Callec")
+    }
     /*
+     
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
